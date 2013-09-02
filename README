@@ -4,7 +4,8 @@ arduino_choirboy
 Simple Arduino sketch to act as a data source for choir.io
 
 Usage:
-Wire a button between pin 2 (kButtonPin) and ground.
+Wire a button between pin 2 (kButtonPin) and ground (see Circuit.png for
+an example of the circuit).
 Update kPath to include the choir.io notification key
 
 Requires the Arduino HttpClient library at https://github.com/amcewen/HttpClient
